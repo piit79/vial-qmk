@@ -1,0 +1,10 @@
+{
+  "usb": {
+    "device_version": "1.5.4"
+  },
+  "encoder": {
+    "rotary": [
+      {"pin_a": "B5", "pin_b": "B6", "resolution": 2}
+    ]
+  }
+}
