@@ -40,6 +40,11 @@
             "bootloader": "rp2040",
             "processor": "RP2040"
         },
+        "frood": {
+            "board": "QMK_PM2040",
+            "bootloader": "rp2040",
+            "processor": "RP2040"
+        },
         "helios": {
             "board": "QMK_PM2040",
             "bootloader": "rp2040",
