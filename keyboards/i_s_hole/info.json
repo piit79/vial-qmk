@@ -1,0 +1,37 @@
+{
+    "keyboard_name": "I-S-hOle",
+    "manufacturer": "di0ib",
+    "url": "https://github.com/di0ib/Misc/tree/master/i-s-hole",
+    "maintainer": "di0ib",
+    "features": {
+        "bootmagic": false,
+        "command": false,
+        "console": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": false
+    },
+    "processor": "atmega32u4",
+    "bootloader": "caterina",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0123",
+        "device_version": "1.0.0"
+        },
+    "matrix_pins": {
+        "direct": [
+            ["D4", "C6"],
+            ["E6", "D7"]
+        ]
+    },
+    "layouts": {
+        "LAYOUT_2x2": {
+            "layout": [
+                {"x":  0, "y":  0, "w":  1, "h":  1, "matrix": [0,  0]},
+                {"x":  1, "y":  0, "w":  1, "h":  1, "matrix": [0,  1]},
+                {"x":  0, "y":  1, "w":  1, "h":  1, "matrix": [1,  0]},
+                {"x":  1, "y":  1, "w":  1, "h":  1, "matrix": [1,  1]}
+            ]
+        }
+    }
+}
