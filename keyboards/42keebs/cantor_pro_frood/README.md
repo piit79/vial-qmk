@@ -1,6 +1,6 @@
 # Cantor Pro Frood
 
-![cantor](https://i.imgur.com/Uvxm3zVh.jpg)
+![Cantor Pro Frood](https://42keebs.eu/wp-content/uploads/2022/09/2024-02-01-15-01-58-551-scaled.jpg)
 
 The Cantor Pro Frood keyboard is a 42 key diodeless split keyboard, designed with simplicity in mind. It based on the original [Cantor](https://github.com/diepala/cantor) by [Diego Palacios](https://github.com/diepala), itself inspired by the popular [corne](https://github.com/foostan/crkbd), [ferris](https://github.com/pierrechevalier83/ferris) and [sweep](https://github.com/davidphilipbarr/Sweep) keyboards, aiming to provide a more ergonomic (stronger column stagger) corne-like layout with a simple, easy to assemble and cheap design.
 
@@ -12,7 +12,7 @@ Cantor Pro Frood, as the name suggests, uses the powerful but affordable [42. Ke
 
 Make example for this keyboard (after setting up your build environment):
 
-    make 42keebs/cantor_pro_frood:vial
+    qmk compile -kb 42keebs/cantor_pro_frood -km vial
 
 To flash the firmware .uf2 file, reset the Frood to the bootloader mode (see below) which will present it as a USB mass storage device (a.k.a. USB flash) and copy the file to the device.
 

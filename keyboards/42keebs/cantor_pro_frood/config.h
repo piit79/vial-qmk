@@ -10,8 +10,13 @@
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U
 #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP17
 
-#define SERIAL_USART_FULL_DUPLEX
-#define SERIAL_USART_TX_PIN GP8
-#define SERIAL_USART_RX_PIN GP9
-
 #define SPLIT_HAND_PIN GP19
+
+/**************************************************
+** Include headers specific to keyboard revision **
+**************************************************/
+#if defined(KEYBOARD_42keebs_cantor_pro_frood_v1)
+#    include "v1.h"
+#elif defined(KEYBOARD_42keebs_cantor_pro_frood_v2)
+#    include "v2.h"
+#endif
