@@ -15,8 +15,7 @@
     "bootloader": "rp2040",
     "usb": {
         "vid": "0x1209",
-        "pid": "0x4204",
-        "device_version": "1.0.0"
+        "pid": "0x4204"
     },
     "bootmagic": {
         "matrix": [4, 5]
