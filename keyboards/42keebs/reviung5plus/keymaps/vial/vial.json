@@ -1,0 +1,44 @@
+{
+    "lighting": "qmk_rgblight",
+    "matrix": {
+        "rows": 1,
+        "cols": 5
+    },
+        "customKeycodes": [
+            {"name": "OLED NoTout",
+                "title": "OLED No Timeout",
+                "shortName": "O_NO_T"
+            },
+            {"name": "OLED Timeout Down",
+                "title": "Decrease OLED Timeout",
+                "shortName": "O_TM_DN"
+            },
+            {"name": "OLED Timeout Up",
+                "title": "Increase OLED Timeout",
+                "shortName": "O_TM_UP"
+            }
+        ],
+        "layouts": {
+        "keymap":[
+            [
+                "0,0\n\n\n\n\n\n\n\n\ne",
+                "0,1\n\n\n\n\n\n\n\n\ne",
+                {"x": 2},
+                "1,0\n\n\n\n\n\n\n\n\ne",
+                "1,1\n\n\n\n\n\n\n\n\ne"
+            ],
+            [
+                {"x": 0.5},
+                "0,0",
+                {"x": 3},
+                "0,4"
+            ],
+            [
+                {"x": 1.5, "y": -0.5},
+                "0,1",
+                "0,2",
+                "0,3"
+            ]
+        ]
+    }
+}
