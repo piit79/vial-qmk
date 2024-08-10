@@ -6,5 +6,8 @@
     "rotary": [
       {"pin_a": "C0", "pin_b": "C1", "resolution": 2}
     ]
+  },
+  "qmk": {
+    "tap_keycode_delay": 10
   }
 }
