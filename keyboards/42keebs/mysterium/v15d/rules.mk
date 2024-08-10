@@ -1,1 +1,2 @@
-# All rules now in info.json
+# Processor frequency
+F_CPU = 16000000
