@@ -1,0 +1,11 @@
+{
+    "keyboard": "42keebs/pisolation",
+    "keymap": "vial",
+    "version": 1,
+    "layout": "LAYOUT",
+    "layers": [
+        [
+            "KC_ENT"
+        ]
+    ]
+}
